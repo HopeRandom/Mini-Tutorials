@@ -1,0 +1,39 @@
+* *::before *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 50, 221, 0.63);
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 90%;
+    max-width: 300px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 175px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: #555;
+}
+
+.input-box img {
+    width: 35px;
+    cursor: pointer;
+}
